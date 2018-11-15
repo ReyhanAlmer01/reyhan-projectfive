@@ -1,0 +1,10 @@
+<app-headerReyhan (featureSelected)="onNavigate($event)"></app-headerReyhan>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <!-- <app-recipeReyhan *ngIf="loadedFeature === 'recipeReyhan'"></app-recipeReyhan>
+      <app-shopping-list-reyhan *ngIf="loadedFeature !== 'recipeReyhan'"></app-shopping-list-reyhan> -->
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
